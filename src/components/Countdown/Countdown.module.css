@@ -1,0 +1,13 @@
+.countdown {
+    display: block;
+    height: 200px;
+    width: 400px;
+    margin: 50px auto;
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 20px;
+
+    background-color: cadetblue;
+    /* background-color: rgb(22, 27, 31); */
+    box-shadow: 0 3px 6px rgb(12, 12, 12);
+}

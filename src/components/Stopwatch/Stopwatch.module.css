@@ -1,0 +1,56 @@
+.stopwatch {
+    display: block;
+    height: 300px;
+    width: 400px;
+    margin: 50px auto;
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: burlywood;
+    /* background-color: rgb(22, 27, 31); */
+    box-shadow: 0 3px 6px rgb(12, 12, 12);
+}
+.display {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 48px;
+}
+
+.btnBox {
+    display: flex;
+}
+.btn {
+    margin: 35px auto;
+    padding: 12px 32px;
+    font-size: 20px;
+    background-color: #3ca1a5;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #07d623;
+}
+
+.btnStop,
+.btnReset {
+    margin: 35px auto;
+    padding: 12px 32px;
+    font-size: 20px;
+    background-color: #3ca1a5;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnStop:hover,
+.btnStop:focus,
+.btnReset:hover,
+.btnReset:focus {
+    background-color: #d60707;
+}
