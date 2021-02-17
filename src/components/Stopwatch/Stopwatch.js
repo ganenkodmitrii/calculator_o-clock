@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import s from './Stopwatch.module.css';
 
 class Stopwatch extends Component {
@@ -87,3 +88,9 @@ class Stopwatch extends Component {
     }
 }
 export default Stopwatch;
+
+Stopwatch.propTypes = {
+    timerOn: PropTypes.bool,
+    timerStart: PropTypes.number,
+    timerTime: PropTypes.number,
+};

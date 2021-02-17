@@ -1,13 +1,75 @@
 .countdown {
     display: block;
-    height: 200px;
+    height: 240px;
     width: 400px;
     margin: 50px auto;
     border: 2px solid grey;
     border-radius: 4px;
     padding: 20px;
-
+    text-align: center;
     background-color: cadetblue;
-    /* background-color: rgb(22, 27, 31); */
     box-shadow: 0 3px 6px rgb(12, 12, 12);
+}
+.label {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.display {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin: 0 12px;
+    border: solid 1px transparent;
+    border-radius: 2px;
+    padding: 4px 16px;
+    color: #ffffff;
+    background-color: chocolate;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #106ba3;
+}
+
+.time {
+    font-size: 36px;
+    margin: 5px 0;
+}
+
+.btnStart {
+    margin: 0 auto;
+    padding: 12px 32px;
+    font-size: 20px;
+    background-color: #0919aa;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btnStart:hover,
+.btnStart:focus {
+    background-color: #07d623;
+}
+
+.btnStop,
+.btnReset {
+    margin: 0 auto;
+    padding: 12px 32px;
+    font-size: 20px;
+    background-color: #3ca1a5;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnStop:hover,
+.btnStop:focus,
+.btnReset:hover,
+.btnReset:focus {
+    background-color: #d60707;
 }
